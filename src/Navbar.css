@@ -1,8 +1,21 @@
-.navbar{
-    background-image: url("/navbar-bg.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; /* Add this line */
-    height: 20vh; /* Add this line to set the height of the navbar */
-    overflow: hidden; 
+/* .navbar {
+  background-image: url("/navbar-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20vh;
+  overflow: hidden;
+} */
+
+@keyframes bounce {
+    0%, 100% {
+      top: -10%;
   }
+  50% {
+      top: -40%;
+  }
+}
+
+.bouncing-element {
+  animation: bounce 2s ease-in-out infinite reverse
+}

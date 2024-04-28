@@ -1,0 +1,7 @@
+.centered-team-element {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-87%,-50%);
+    font-family: "Bubblegum Sans", serif;
+}

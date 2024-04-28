@@ -2,10 +2,10 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-[100]">
+    <nav className="relative top-0 left-0 w-full z-[100]">
       <div className="relative flex justify-between text-white font-semibold">
         <div className="absolute top-0 left-0 w-full h-auto -z-[10] bouncing-element">
-          <div className="h-[3.5rem] bg-[#fe9181]"></div>
+          <div className="bg-[#fe9181]"></div>
           <img src={'/drip2.png'} alt="background" className="" />
         </div>
 

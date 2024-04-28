@@ -1,0 +1,8 @@
+.navbar{
+    background-image: url("/navbar-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Add this line */
+    height: 20vh; /* Add this line to set the height of the navbar */
+    overflow: hidden; 
+  }

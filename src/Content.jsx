@@ -8,7 +8,7 @@ const Content = () => {
         <div className="relative flex justify-center md:justify-end items-center col-span-1 md:pr-20 order-2 md:order-1">
             <div className="relative transition-all hover:scale-110 ease-in-out duration-500 cursor-pointer">
                 <img className="w-full h-[200px]" src="/splat.png"/>
-                    <a href="https://app.ston.fi/swap?chartVisible=false&amp;ft=TON&amp;tt=EQCqWKCZsBEQxhKbeZnNF6GLsnlPG-JmLlpUXoL99j8hJMi5&amp;ta=5000000">
+                    <a href="https://app.ston.fi/swap?chartVisible=false&amp;ft=TON&amp;tt=EQBS_pB1B_jK1GqWcZDeAYnmG9pud9dsG5SVvBBhbFuS7Zzu&amp;ta=5000000">
                     <div className="absolute centered-element-buy font-[bubblegum] text-white text-[30px]">BUY</div>
                     </a>
                     </div>
